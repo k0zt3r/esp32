@@ -1,0 +1,42 @@
+# Local settings, credentials and personal notes
+/.esp32/
+/AGENTS.md
+.env
+.env.*
+!.env.example
+**/mqtt_private.h
+*.key
+*.pem
+
+# Generated firmware, caches and previews
+/.build/
+/build/
+/build-wifi/
+/.preview/
+__pycache__/
+*.pyc
+*.bin
+*.elf
+*.map
+/ThermoDashboard/dashboard_page.h
+
+# Local broker installation and generated state
+/mqtt/runtime/
+/mqtt/downloads/
+/mqtt/.edge-preview/
+/mqtt/device-credentials.json
+/mqtt/device-passwords
+/mqtt/device-acl
+/mqtt/mosquitto.conf
+/mqtt/*diagnostic.json
+/mqtt/firewall-disabled-blocks.json
+/mqtt/firewall-ready.txt
+/mqtt/preview.png
+/mqtt/upgrade_ui.py
+*.log
+*.pid
+**/serial-*.txt
+
+# Personal task-management helpers are not firmware tooling
+/tools/ticktick_purchases.py
+/tools/fix_ticktick_kit.py

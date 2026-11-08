@@ -1,0 +1,9 @@
+{
+  "fqbn": "esp32:esp32:esp32doit-devkit-v1",
+  "port": "COM6",
+  "monitorBaud": 115200,
+  "activeSketch": "ThermoDashboard/ThermoDashboard.ino",
+  "comments": true,
+  "tipVerbosity": "balanced",
+  "learningNotes": true
+}
